@@ -218,6 +218,9 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
         window_style.background = game.uiskin.getDrawable("window-background")
 
         window = Window("test test test",game.uiskin)
+        window!!.style = window_style
+        window!!.titleLabel.style.background = game.uiskin.getDrawable("empty-transparent")
+        window!!.titleTable.background = game.uiskin.getDrawable("empty-transparent")
 
 //        table!!.add(eng_label).expandX().expandY()//.fillX().fillY()
 //        table!!.add(eng_textarea).expandX().expandY()//.fillX().fillY() //BUGGED
@@ -241,6 +244,8 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
 
         window!!.setFillParent(true)
         window!!.addActor(table)
+        window!!.titleLabel.setAlignment(0)
+//        window!!.padTop(40f) //still ingnored by Actor - table
         stage.addActor(window)
 //        stage.addActor(table)
 

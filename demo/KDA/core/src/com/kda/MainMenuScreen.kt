@@ -82,7 +82,7 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
 //        stage = Stage(FitViewport(game.screenWidth, game.screenHeight))
 //        Gdx.input.setInputProcessor(stage)
         Gdx.input.inputProcessor = stage
-        stage.isDebugAll = true
+//        stage.isDebugAll = true
         table = Table(game.uiskin)
         table!!.setSize(game.screenWidth, game.screenHeight)
 
@@ -219,33 +219,33 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
 
         window = Window("test test test",game.uiskin)
         window!!.style = window_style
-        window!!.titleLabel.style.background = game.uiskin.getDrawable("empty-transparent")
-        window!!.titleTable.background = game.uiskin.getDrawable("empty-transparent")
+//        window!!.titleLabel.style.background = game.uiskin.getDrawable("empty-transparent")
+//        window!!.titleTable.background = game.uiskin.getDrawable("empty-transparent")
 
-//        table!!.add(eng_label).expandX().expandY()//.fillX().fillY()
-//        table!!.add(eng_textarea).expandX().expandY()//.fillX().fillY() //BUGGED
-
-//        table!!.add(eng_button).expandX().expandY()//.fillX().fillY()
-//        table!!.add(selectbox).expandX().expandY()
+//        table!!.add(eng_label).expandX().expandY()//.fillX().fillY() //used in scroll
+        table!!.add(eng_button).expandX().expandY()//.fillX().fillY()
+        table!!.add(selectbox).expandX().expandY()
+        table!!.add(eng_textfield).expandX().expandY()//.fillX().fillY()
+        table!!.row()
+        table!!.add(eng_cbox).expandX().expandY()//.fillX().fillY()
+        table!!.add(progress).expandX().expandY()
 //        table!!.row()
-//        table!!.add(eng_textfield).expandX().expandY()//.fillX().fillY()
-//        table!!.add(eng_cbox).expandX().expandY()//.fillX().fillY()
 //        table!!.row()
-//        table!!.add(list).expandX().expandY()
-//        table!!.add(scroll).expandX().expandY()//.fillX().fillY()
-//        table!!.row()
-//        table!!.add(progress).expandX().expandY()
-//        table!!.add(progressv).expandX().expandY()
 //        table!!.row()
         table!!.add(slider).expandX().expandY().fill()
-        table!!.add(sliderv).expandX().expandY().fill()
         table!!.row()
         table!!.add(touchpad)
+        table!!.add(scroll).expandX().expandY()//.fillX().fillY()
+        table!!.add(list).expandX().expandY()
+        table!!.add(progressv).expandX().expandY()
+        table!!.add(sliderv).expandX().expandY().fill()
+//        table!!.add(eng_textarea).expandX().expandY()//.fillX().fillY() //BUGGED
 
         window!!.setFillParent(true)
-        window!!.addActor(table)
+        window!!.add(table).expand().fill()
         window!!.titleLabel.setAlignment(0)
-//        window!!.padTop(40f) //still ingnored by Actor - table
+        window!!.pad(10f)
+        window!!.padTop(68f) //work
         stage.addActor(window)
 //        stage.addActor(table)
 

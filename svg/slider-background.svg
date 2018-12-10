@@ -42,15 +42,19 @@
          offset="0.59999353"
          style="stop-color:#00fbfe;stop-opacity:1" />
       <stop
-         style="stop-color:#00b3fe;stop-opacity:1"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0.69999444"
+         id="stop991" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
          offset="0.7999953"
          id="stop2123" />
       <stop
          id="stop2119"
          offset="0.89999616"
-         style="stop-color:#00b3fe;stop-opacity:1" />
+         style="stop-color:#00fbfe;stop-opacity:1" />
       <stop
-         style="stop-color:#000000;stop-opacity:0.9580645"
+         style="stop-color:#000000;stop-opacity:0.98709679"
          offset="1"
          id="stop2109" />
     </linearGradient>
@@ -102,13 +106,17 @@
          offset="0.33333778"
          style="stop-color:#00fbfe;stop-opacity:1" />
       <stop
-         style="stop-color:#00b2fe;stop-opacity:1"
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0.50000441"
+         id="stop993" />
+      <stop
+         style="stop-color:#fcfeff;stop-opacity:1"
          offset="0.6666711"
          id="stop1608" />
       <stop
          id="stop2137"
          offset="0.83333778"
-         style="stop-color:#00b4fe;stop-opacity:1" />
+         style="stop-color:#00fbfe;stop-opacity:1" />
       <stop
          id="stop1604"
          offset="1"
@@ -673,12 +681,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8.3225648"
-     inkscape:cx="34.191933"
-     inkscape:cy="49.846049"
+     inkscape:zoom="12.329436"
+     inkscape:cx="32.225546"
+     inkscape:cy="44.771452"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
-     showgrid="false"
+     showgrid="true"
      units="px"
      inkscape:window-width="1526"
      inkscape:window-height="763"

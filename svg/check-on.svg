@@ -17,11 +17,27 @@
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="check-on.svg"
-   inkscape:export-filename="/home/user/Desktop/check-on.png"
+   inkscape:export-filename="/home/user/d/development/codehost/fantastic-plastic-libgdx-skin/png/check-on.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
      id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient988">
+      <stop
+         style="stop-color:#00b3fe;stop-opacity:1"
+         offset="0"
+         id="stop982" />
+      <stop
+         id="stop984"
+         offset="0.42105141"
+         style="stop-color:#0082b8;stop-opacity:1" />
+      <stop
+         style="stop-color:#00597e;stop-opacity:1"
+         offset="1"
+         id="stop986" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient1463">
@@ -38,11 +54,11 @@
        inkscape:collect="always"
        id="linearGradient963">
       <stop
-         style="stop-color:#febf00;stop-opacity:1"
+         style="stop-color:#ffffff;stop-opacity:1"
          offset="0"
          id="stop959" />
       <stop
-         style="stop-color:#020100;stop-opacity:1"
+         style="stop-color:#feb900;stop-opacity:1"
          offset="1"
          id="stop961" />
     </linearGradient>
@@ -50,25 +66,13 @@
        inkscape:collect="always"
        id="linearGradient925">
       <stop
-         style="stop-color:#000d12;stop-opacity:1"
+         style="stop-color:#fcfeff;stop-opacity:1"
          offset="0"
          id="stop921" />
       <stop
          style="stop-color:#00b3fe;stop-opacity:1"
          offset="1"
          id="stop923" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient917">
-      <stop
-         style="stop-color:#00b3fe;stop-opacity:1"
-         offset="0"
-         id="stop913" />
-      <stop
-         style="stop-color:#000000;stop-opacity:1"
-         offset="1"
-         id="stop915" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
@@ -89,15 +93,6 @@
        x1="64"
        y1="1080.5197"
        x2="64"
-       y2="1042.5197"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient917"
-       id="linearGradient919"
-       x1="68"
-       y1="1080.5197"
-       x2="68"
        y2="1042.5197"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
@@ -127,6 +122,15 @@
        y1="1080.5197"
        x2="58"
        y2="1076.5197" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient988"
+       id="linearGradient980"
+       gradientUnits="userSpaceOnUse"
+       x1="68"
+       y1="1080.5197"
+       x2="68"
+       y2="1042.5197" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -135,9 +139,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.2707915"
-     inkscape:cx="60.418157"
-     inkscape:cy="33.843714"
+     inkscape:zoom="4.2960171"
+     inkscape:cx="26.756888"
+     inkscape:cy="46.082748"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -188,7 +192,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -210,7 +214,7 @@
          inkscape:connector-curvature="0"
          id="path901"
          d="m 40,1044.5197 h 2 c 36,0 36,36 36,36 v 2 H 40 Z"
-         style="opacity:1;fill:url(#linearGradient919);fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="opacity:1;fill:url(#linearGradient980);fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="ccccc"
          inkscape:connector-curvature="0"

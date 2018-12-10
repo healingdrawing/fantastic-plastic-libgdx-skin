@@ -164,6 +164,13 @@ progressbar-knobbefore
   orig: 16, 16
   offset: 0, 0
   index: -1
+redred
+  rotate: false
+  xy: 528, 50
+  size: 4, 4
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
 scroll-background
   rotate: false
   xy: 866, 236
@@ -267,8 +274,8 @@ window-background
   rotate: false
   xy: 2, 12
   size: 240, 240
-  split: 118, 118, 118, 118
-  pad: 4, 4, 40, 4
+  split: 38, 38, 64, 38
+  pad: 8, 8, 66, 8
   orig: 240, 240
   offset: 0, 0
   index: -1

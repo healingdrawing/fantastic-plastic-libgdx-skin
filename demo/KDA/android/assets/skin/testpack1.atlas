@@ -1,12 +1,12 @@
 
 testpack1.png
-size: 1024,128
+size: 1024,256
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
 button-down
   rotate: false
-  xy: 84, 46
+  xy: 486, 90
   size: 80, 80
   split: 38, 38, 38, 38
   pad: 38, 38, 4, 4
@@ -15,7 +15,7 @@ button-down
   index: -1
 button-up
   rotate: false
-  xy: 494, 46
+  xy: 732, 172
   size: 80, 80
   split: 38, 38, 38, 38
   pad: 38, 38, 4, 4
@@ -24,7 +24,7 @@ button-up
   index: -1
 check-off
   rotate: false
-  xy: 248, 46
+  xy: 568, 90
   size: 80, 80
   split: 38, 38, 38, 38
   pad: 38, 38, 19, 19
@@ -33,7 +33,7 @@ check-off
   index: -1
 check-on
   rotate: false
-  xy: 2, 46
+  xy: 486, 172
   size: 80, 80
   split: 38, 38, 38, 38
   pad: 38, 38, 20, 20
@@ -42,7 +42,7 @@ check-on
   index: -1
 cursor
   rotate: false
-  xy: 100, 32
+  xy: 732, 98
   size: 8, 12
   split: 2, 2, 2, 2
   pad: 2, 2, 2, 2
@@ -51,7 +51,7 @@ cursor
   index: -1
 hscroll
   rotate: false
-  xy: 54, 2
+  xy: 2, 2
   size: 32, 8
   split: 2, 2, 2, 2
   pad: 2, 2, 2, 2
@@ -60,7 +60,7 @@ hscroll
   index: -1
 hscrollknob
   rotate: false
-  xy: 2, 2
+  xy: 814, 236
   size: 32, 16
   split: 15, 15, 12, 2
   pad: 15, 15, 12, 2
@@ -69,7 +69,7 @@ hscrollknob
   index: -1
 label-background
   rotate: false
-  xy: 612, 96
+  xy: 742, 132
   size: 12, 12
   split: 4, 4, 4, 4
   pad: 4, 4, 4, 4
@@ -78,7 +78,7 @@ label-background
   index: -1
 list-background
   rotate: false
-  xy: 594, 74
+  xy: 564, 72
   size: 16, 16
   split: 6, 6, 6, 6
   pad: 4, 4, 4, 4
@@ -87,7 +87,7 @@ list-background
   index: -1
 list-down
   rotate: false
-  xy: 630, 114
+  xy: 546, 58
   size: 12, 12
   split: 2, 2, 2, 2
   pad: 4, 4, 4, 4
@@ -96,7 +96,7 @@ list-down
   index: -1
 list-selection
   rotate: false
-  xy: 64, 14
+  xy: 512, 34
   size: 12, 12
   split: 2, 2, 2, 2
   pad: 4, 4, 4, 4
@@ -105,7 +105,7 @@ list-selection
   index: -1
 minus
   rotate: false
-  xy: 28, 20
+  xy: 486, 22
   size: 24, 24
   split: 6, 6, 6, 6
   pad: 6, 6, 6, 6
@@ -114,7 +114,7 @@ minus
   index: -1
 plus
   rotate: false
-  xy: 2, 20
+  xy: 732, 146
   size: 24, 24
   split: 6, 6, 6, 6
   pad: 6, 6, 6, 6
@@ -123,7 +123,7 @@ plus
   index: -1
 progressbar-background
   rotate: false
-  xy: 64, 28
+  xy: 546, 72
   size: 16, 16
   split: 6, 6, 6, 6
   pad: 2, 2, 2, 2
@@ -132,7 +132,7 @@ progressbar-background
   index: -1
 progressbar-knob
   rotate: false
-  xy: 594, 110
+  xy: 848, 236
   size: 16, 16
   split: 6, 6, 6, 6
   pad: 6, 6, 6, 6
@@ -141,7 +141,7 @@ progressbar-knob
   index: -1
 progressbar-knobafter
   rotate: false
-  xy: 612, 110
+  xy: 832, 218
   size: 16, 16
   split: 7, 7, 7, 7
   pad: 7, 7, 7, 7
@@ -150,7 +150,7 @@ progressbar-knobafter
   index: -1
 progressbar-knobbefore
   rotate: false
-  xy: 576, 76
+  xy: 814, 218
   size: 16, 16
   split: 6, 6, 6, 6
   pad: 6, 6, 6, 6
@@ -159,7 +159,7 @@ progressbar-knobbefore
   index: -1
 scroll-background
   rotate: false
-  xy: 82, 28
+  xy: 866, 236
   size: 16, 16
   split: 4, 4, 4, 4
   pad: 0, 0, 0, 0
@@ -168,7 +168,7 @@ scroll-background
   index: -1
 selectbox-background
   rotate: false
-  xy: 330, 46
+  xy: 650, 172
   size: 80, 80
   split: 38, 38, 38, 38
   pad: 38, 38, 4, 4
@@ -177,16 +177,16 @@ selectbox-background
   index: -1
 slider-background
   rotate: false
-  xy: 412, 46
+  xy: 650, 90
   size: 80, 80
   split: 38, 38, 38, 38
-  pad: 38, 38, 38, 38
+  pad: 0, 0, 0, 0
   orig: 80, 80
   offset: 0, 0
   index: -1
 slider-knob
   rotate: false
-  xy: 166, 46
+  xy: 568, 172
   size: 80, 80
   split: 38, 38, 38, 38
   pad: 38, 38, 38, 38
@@ -195,7 +195,7 @@ slider-knob
   index: -1
 textfield-background
   rotate: false
-  xy: 36, 2
+  xy: 758, 154
   size: 16, 16
   split: 6, 6, 6, 6
   pad: 6, 6, 6, 6
@@ -204,7 +204,7 @@ textfield-background
   index: -1
 textfield-disabled
   rotate: false
-  xy: 594, 92
+  xy: 814, 200
   size: 16, 16
   split: 6, 6, 6, 6
   pad: 6, 6, 6, 6
@@ -213,16 +213,34 @@ textfield-disabled
   index: -1
 textfield-focused
   rotate: false
-  xy: 576, 58
+  xy: 776, 154
   size: 16, 16
   split: 6, 6, 6, 6
   pad: 6, 6, 6, 6
   orig: 16, 16
   offset: 0, 0
   index: -1
+touchpad-background
+  rotate: false
+  xy: 244, 12
+  size: 240, 240
+  split: 0, 0, 0, 0
+  pad: 0, 0, 0, 0
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+touchpad-knob
+  rotate: false
+  xy: 486, 48
+  size: 40, 40
+  split: 0, 0, 0, 0
+  pad: 0, 0, 0, 0
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
 vscroll
   rotate: false
-  xy: 54, 12
+  xy: 732, 112
   size: 8, 32
   split: 2, 2, 2, 2
   pad: 2, 2, 2, 2
@@ -231,10 +249,19 @@ vscroll
   index: -1
 vscrollknob
   rotate: false
-  xy: 576, 94
+  xy: 528, 56
   size: 16, 32
   split: 12, 2, 15, 15
   pad: 12, 2, 15, 15
   orig: 16, 32
+  offset: 0, 0
+  index: -1
+window-background
+  rotate: false
+  xy: 2, 12
+  size: 240, 240
+  split: 0, 0, 0, 0
+  pad: 0, 0, 0, 0
+  orig: 240, 240
   offset: 0, 0
   index: -1

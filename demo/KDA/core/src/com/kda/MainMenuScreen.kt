@@ -25,6 +25,8 @@ import com.badlogic.gdx.scenes.scene2d.ui.List.ListStyle
 import com.badlogic.gdx.scenes.scene2d.ui.SelectBox.SelectBoxStyle
 import com.badlogic.gdx.scenes.scene2d.ui.ProgressBar.ProgressBarStyle
 import com.badlogic.gdx.scenes.scene2d.ui.Slider.SliderStyle
+import com.badlogic.gdx.scenes.scene2d.ui.Window.WindowStyle
+import com.badlogic.gdx.scenes.scene2d.ui.Touchpad.TouchpadStyle
 
 
 
@@ -64,6 +66,12 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
     private  var slider:Slider? = null
     private  var sliderv:Slider? = null
     private val slider_style:SliderStyle = SliderStyle()
+
+    private var window:Window? = null
+    private val window_style:WindowStyle = WindowStyle()
+
+    private var touchpad:Touchpad? = null
+    private val touchpad_style:TouchpadStyle = TouchpadStyle()
 
     private var chn_button:TextButton? = null
     private var jap_button:TextButton? = null
@@ -200,6 +208,17 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
         sliderv = Slider(0f,10f,1f,true,game.uiskin)
         sliderv!!.setStyle(slider_style)
 
+        touchpad_style.background = game.uiskin.getDrawable("touchpad-background")
+        touchpad_style.knob = game.uiskin.getDrawable("touchpad-knob")
+
+        touchpad = Touchpad(40f, game.uiskin)
+        touchpad!!.style = touchpad_style
+
+        window_style.titleFont = game.uiskin.get("eng-32", BitmapFont::class.java)
+        window_style.background = game.uiskin.getDrawable("window-background")
+
+        window = Window("test test test",game.uiskin)
+
 //        table!!.add(eng_label).expandX().expandY()//.fillX().fillY()
 //        table!!.add(eng_textarea).expandX().expandY()//.fillX().fillY() //BUGGED
 
@@ -215,11 +234,15 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
 //        table!!.add(progress).expandX().expandY()
 //        table!!.add(progressv).expandX().expandY()
 //        table!!.row()
-        table!!.add(slider).expandX().expandY()
+        table!!.add(slider).expandX().expandY().fill()
+        table!!.add(sliderv).expandX().expandY().fill()
         table!!.row()
-        table!!.add(sliderv).expandX().expandY()
+        table!!.add(touchpad)
 
-        stage.addActor(table)
+        window!!.setFillParent(true)
+        window!!.addActor(table)
+        stage.addActor(window)
+//        stage.addActor(table)
 
     }
 

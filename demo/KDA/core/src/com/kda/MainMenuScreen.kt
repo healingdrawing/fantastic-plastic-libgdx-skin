@@ -27,6 +27,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.ProgressBar.ProgressBarStyle
 import com.badlogic.gdx.scenes.scene2d.ui.Slider.SliderStyle
 import com.badlogic.gdx.scenes.scene2d.ui.Window.WindowStyle
 import com.badlogic.gdx.scenes.scene2d.ui.Touchpad.TouchpadStyle
+import com.badlogic.gdx.scenes.scene2d.ui.SplitPane.SplitPaneStyle
 
 
 
@@ -73,6 +74,9 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
     private var touchpad:Touchpad? = null
     private val touchpad_style:TouchpadStyle = TouchpadStyle()
 
+    private var splitpane:SplitPane? = null
+    private  val splitpane_style:SplitPaneStyle = SplitPaneStyle()
+
     private var chn_button:TextButton? = null
     private var jap_button:TextButton? = null
     private var kor_button:TextButton? = null
@@ -86,7 +90,7 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
         table = Table(game.uiskin)
         table!!.setSize(game.screenWidth, game.screenHeight)
 
-        eng_style.font = game.uiskin.get("chn-32", BitmapFont::class.java)
+        eng_style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
         eng_style.up = game.uiskin.getDrawable("button-up")
         eng_style.down = game.uiskin.getDrawable("button-down")
         eng_button = TextButton("", game.uiskin, "default")
@@ -94,7 +98,7 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
         eng_button!!.setText("测试按钮")
 
 
-        eng_cbox_style.font = game.uiskin.get("chn-32", BitmapFont::class.java)
+        eng_cbox_style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
         eng_cbox_style.checkboxOn = game.uiskin.getDrawable("check-on")
         eng_cbox_style.checkboxOff = game.uiskin.getDrawable("check-off")
 
@@ -102,7 +106,7 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
         eng_cbox!!.style = eng_cbox_style
         eng_cbox!!.setText("测试按钮")
 
-        eng_label_style.font = game.uiskin.get("chn-32", BitmapFont::class.java)
+        eng_label_style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
         eng_label_style.background = game.uiskin.getDrawable("label-background")
 
         eng_label = Label("", game.uiskin)
@@ -126,7 +130,7 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
                 "测试按钮\n" +
                 "测试按钮")
 
-        eng_textfield_style.font = game.uiskin.get("eng-32", BitmapFont::class.java)
+        eng_textfield_style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
         eng_textfield_style.fontColor = Color(1f,1f,1f,1f)
         eng_textfield_style.background = game.uiskin.getDrawable("textfield-background")
         eng_textfield_style.focusedBackground = game.uiskin.getDrawable("textfield-focused")
@@ -154,7 +158,7 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
         list_style.background = game.uiskin.getDrawable("list-background")
         list_style.selection = game.uiskin.getDrawable("list-selection")
         list_style.down = game.uiskin.getDrawable("list-down")
-        list_style.font = game.uiskin.get("eng-32", BitmapFont::class.java)
+        list_style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
 
         list = UIList(game.uiskin)
         list!!.style = list_style
@@ -166,7 +170,7 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
         )
         list!!.setItems(listArray)
 
-        selectbox_style.font = game.uiskin.get("eng-32", BitmapFont::class.java)
+        selectbox_style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
         selectbox_style.fontColor = Color.WHITE
         selectbox_style.listStyle = list_style
         selectbox_style.scrollStyle = scroll_style
@@ -214,7 +218,11 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
         touchpad = Touchpad(40f, game.uiskin)
         touchpad!!.style = touchpad_style
 
-        window_style.titleFont = game.uiskin.get("eng-32", BitmapFont::class.java)
+        splitpane_style.handle = game.uiskin.getDrawable("splitpane")
+        splitpane = SplitPane(progress, slider, false, game.uiskin)
+        splitpane!!.style = splitpane_style
+
+        window_style.titleFont = game.uiskin.get("chn-64", BitmapFont::class.java)
         window_style.background = game.uiskin.getDrawable("window-background")
 
         window = Window("test test test",game.uiskin)
@@ -223,23 +231,27 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
 //        window!!.titleTable.background = game.uiskin.getDrawable("empty-transparent")
 
 //        table!!.add(eng_label).expandX().expandY()//.fillX().fillY() //used in scroll
+
         table!!.add(eng_button).expandX().expandY()//.fillX().fillY()
         table!!.add(selectbox).expandX().expandY()
-        table!!.add(eng_textfield).expandX().expandY()//.fillX().fillY()
+        table!!.add(eng_textfield).expandX().expandY().fillX()
         table!!.row()
         table!!.add(eng_cbox).expandX().expandY()//.fillX().fillY()
-        table!!.add(progress).expandX().expandY()
-//        table!!.row()
-//        table!!.row()
-//        table!!.row()
-        table!!.add(slider).expandX().expandY().fill()
+
+//        table!!.add(progress).expandX().expandY()
+//        table!!.add(slider).expandX().expandY().fill() //used in splitpane
+
         table!!.row()
         table!!.add(touchpad)
         table!!.add(scroll).expandX().expandY()//.fillX().fillY()
         table!!.add(list).expandX().expandY()
         table!!.add(progressv).expandX().expandY()
         table!!.add(sliderv).expandX().expandY().fill()
+
 //        table!!.add(eng_textarea).expandX().expandY()//.fillX().fillY() //BUGGED
+
+        table!!.row()
+        table!!.add(splitpane).expand().fill()
 
         window!!.setFillParent(true)
         window!!.add(table).expand().fill()

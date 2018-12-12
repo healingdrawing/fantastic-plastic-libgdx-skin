@@ -34,6 +34,7 @@ class KDA : Game() {
         asMan.load("bmfonts/chn-32.fnt", BitmapFont::class.java)
         asMan.load("bmfonts/jap-32.fnt", BitmapFont::class.java)
         asMan.load("bmfonts/kor-32.fnt", BitmapFont::class.java)
+        asMan.load("bmfonts/chn-64.fnt", BitmapFont::class.java)
         asMan.finishLoading()
 
         uiskin.addRegions(TextureAtlas(Gdx.files.internal("skin/uiskin.atlas")))
@@ -41,6 +42,7 @@ class KDA : Game() {
         uiskin.add("chn-32", asMan.get("bmfonts/chn-32.fnt"), BitmapFont::class.java)
         uiskin.add("jap-32", asMan.get("bmfonts/jap-32.fnt"), BitmapFont::class.java)
         uiskin.add("kor-32", asMan.get("bmfonts/kor-32.fnt"), BitmapFont::class.java)
+        uiskin.add("chn-64", asMan.get("bmfonts/chn-64.fnt"), BitmapFont::class.java)
 //        uiskin.load(Gdx.files.internal("skin/uiskin.json"))
 
         //new skin for button

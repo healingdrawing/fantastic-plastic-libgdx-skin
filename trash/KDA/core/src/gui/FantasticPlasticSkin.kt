@@ -49,8 +49,8 @@ class FantasticPlasticSkin : Skin() {
         addRegions(TextureAtlas(Gdx.files.internal("skin/uiskin.atlas"))) //default ligdx skin from github
         addRegions(TextureAtlas(Gdx.files.internal("skin/fap.atlas"))) //fantastic plastic skin atlas
         add("chn-64", asm.get("bmfonts/chn-64.fnt"), BitmapFont::class.java)
+        load(Gdx.files.internal("skin/uiskin.json")) //now chn-64 font can be used
         defaultFont = get("chn-64" ,  BitmapFont::class.java)
-        load(Gdx.files.internal("skin/uiskin.json")) //now default font can be used
 
         scroll.vScrollKnob = getDrawable("fap-vscrollknob")
         scroll.vScroll = getDrawable("fap-vscroll")

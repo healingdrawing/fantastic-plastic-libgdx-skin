@@ -82,35 +82,17 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
     private var kor_button:TextButton? = null
 
     override fun show() {
-//        super.show()
-//        stage = Stage(FitViewport(game.screenWidth, game.screenHeight))
-//        Gdx.input.setInputProcessor(stage)
         Gdx.input.inputProcessor = stage
-//        stage.isDebugAll = true
         table = Table(game.uiskin)
         table!!.setSize(game.screenWidth, game.screenHeight)
 
-        eng_style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
-        eng_style.up = game.uiskin.getDrawable("button-up")
-        eng_style.down = game.uiskin.getDrawable("button-down")
-        eng_button = TextButton("", game.uiskin, "default")
-        eng_button!!.style = eng_style
+        eng_button = TextButton("", game.uiskin, "fap")
         eng_button!!.setText("测试按钮")
 
-
-        eng_cbox_style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
-        eng_cbox_style.checkboxOn = game.uiskin.getDrawable("check-on")
-        eng_cbox_style.checkboxOff = game.uiskin.getDrawable("check-off")
-
-        eng_cbox = CheckBox("",game.uiskin)
-        eng_cbox!!.style = eng_cbox_style
+        eng_cbox = CheckBox("",game.uiskin, "fap")
         eng_cbox!!.setText("测试按钮")
 
-        eng_label_style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
-        eng_label_style.background = game.uiskin.getDrawable("label-background")
-
-        eng_label = Label("", game.uiskin)
-        eng_label!!.style = eng_label_style
+        eng_label = Label("", game.uiskin, "fap")
         eng_label!!.setText("测试按钮\n" +
                 "测试按钮测试按钮测试按钮测试按钮\n" +
                 "测试按钮测试按钮测试按钮测试按钮\n" +
@@ -130,38 +112,13 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
                 "测试按钮\n" +
                 "测试按钮")
 
-        eng_textfield_style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
-        eng_textfield_style.fontColor = Color(1f,1f,1f,1f)
-        eng_textfield_style.background = game.uiskin.getDrawable("textfield-background")
-        eng_textfield_style.focusedBackground = game.uiskin.getDrawable("textfield-focused")
-        eng_textfield_style.disabledBackground = game.uiskin.getDrawable("textfield-disabled")
-        eng_textfield_style.cursor = game.uiskin.getDrawable("cursor")
-        eng_textfield_style.selection = game.uiskin.getDrawable("cursor")
+        eng_textfield = TextField("test", game.uiskin, "fap")
 
-        eng_textfield = TextField("test", game.uiskin)
-        eng_textfield!!.style = eng_textfield_style
+        eng_textarea = TextArea("test\ntestt\ntesttt",game.uiskin, "fap")
 
-        eng_textarea = TextArea("test\ntestt\ntesttt",game.uiskin)
-//        eng_textarea!!.setPrefRows(4f)
-        eng_textarea!!.style = eng_textfield_style
+        scroll = ScrollPane(eng_label, game.uiskin, "fap")
 
-
-        scroll_style.background = game.uiskin.getDrawable("scroll-background")
-        scroll_style.hScroll = game.uiskin.getDrawable("hscroll")
-        scroll_style.hScrollKnob = game.uiskin.getDrawable("hscrollknob")
-        scroll_style.vScroll = game.uiskin.getDrawable("vscroll")
-        scroll_style.vScrollKnob = game.uiskin.getDrawable("vscrollknob")
-
-        scroll = ScrollPane(eng_label, game.uiskin)
-        scroll!!.style = scroll_style
-
-        list_style.background = game.uiskin.getDrawable("list-background")
-        list_style.selection = game.uiskin.getDrawable("list-selection")
-        list_style.down = game.uiskin.getDrawable("list-down")
-        list_style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
-
-        list = UIList(game.uiskin)
-        list!!.style = list_style
+        list = UIList(game.uiskin, "fap")
         listArray.add(
                 "testttt",
                 "testtttt",
@@ -170,12 +127,6 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
         )
         list!!.setItems(listArray)
 
-        selectbox_style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
-        selectbox_style.fontColor = Color.WHITE
-        selectbox_style.listStyle = list_style
-        selectbox_style.scrollStyle = scroll_style
-        selectbox_style.background = game.uiskin.getDrawable("selectbox-background")
-
         selectboxArray.add(
                 "testttt",
                 "testtttt",
@@ -183,52 +134,25 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
                 "testtttttt"
         )
 
-        selectbox = SelectBox(game.uiskin)
+        selectbox = SelectBox(game.uiskin, "fap")
         selectbox!!.setItems(selectboxArray)
-        selectbox!!.style = selectbox_style
         selectbox!!.maxListCount = 3
 
-        progress_style.background = game.uiskin.getDrawable("progressbar-background")
-        progress_style.knob = game.uiskin.getDrawable("progressbar-knob")
-        progress_style.knobBefore = game.uiskin.getDrawable("progressbar-knobbefore")
-        progress_style.knobAfter = game.uiskin.getDrawable("progressbar-knobafter")
+        progress = ProgressBar(0f,5f,1f,false,game.uiskin, "fap")
+        progress!!.value = 1f
 
-        progress = ProgressBar(0f,5f,1f,false,game.uiskin)
-        progress!!.style = progress_style
-        progress!!.value = 3f
+        progressv = ProgressBar(0f,5f,1f,true,game.uiskin, "fap")
+        progressv!!.value = 4f
 
-        progressv = ProgressBar(0f,5f,1f,true,game.uiskin)
-        progressv!!.style = progress_style
-        progressv!!.value = 3f
+        slider = Slider(0f,10f,1f,false,game.uiskin, "fap")
 
-        slider_style.background = game.uiskin.getDrawable("slider-background")
-        slider_style.knob = game.uiskin.getDrawable("slider-knob")
-        slider_style.knobDown = game.uiskin.getDrawable("slider-knob")
-        slider_style.knobOver = game.uiskin.getDrawable("slider-knob")
+        sliderv = Slider(0f,10f,1f,true,game.uiskin, "fap")
 
-        slider = Slider(0f,10f,1f,false,game.uiskin)
-        slider!!.setStyle(slider_style)
+        touchpad = Touchpad(40f, game.uiskin, "fap")
 
-        sliderv = Slider(0f,10f,1f,true,game.uiskin)
-        sliderv!!.setStyle(slider_style)
+        splitpane = SplitPane(progress, slider, false, game.uiskin, "fap")
 
-        touchpad_style.background = game.uiskin.getDrawable("touchpad-background")
-        touchpad_style.knob = game.uiskin.getDrawable("touchpad-knob")
-
-        touchpad = Touchpad(40f, game.uiskin)
-        touchpad!!.style = touchpad_style
-
-        splitpane_style.handle = game.uiskin.getDrawable("splitpane")
-        splitpane = SplitPane(progress, slider, false, game.uiskin)
-        splitpane!!.style = splitpane_style
-
-        window_style.titleFont = game.uiskin.get("chn-64", BitmapFont::class.java)
-        window_style.background = game.uiskin.getDrawable("window-background")
-
-        window = Window("test test test",game.uiskin)
-        window!!.style = window_style
-//        window!!.titleLabel.style.background = game.uiskin.getDrawable("empty-transparent")
-//        window!!.titleTable.background = game.uiskin.getDrawable("empty-transparent")
+        window = Window("test test test",game.uiskin, "fap")
 
 //        table!!.add(eng_label).expandX().expandY()//.fillX().fillY() //used in scroll
 
@@ -255,7 +179,7 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
 
         window!!.setFillParent(true)
         window!!.add(table).expand().fill()
-        window!!.titleLabel.setAlignment(0)
+        window!!.titleLabel.setAlignment(-1)
         window!!.pad(10f)
         window!!.padTop(68f) //work
         stage.addActor(window)

@@ -120,16 +120,17 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
                 "测试按钮")
 
         eng_textfield = TextField("test", game.uiskin, "fap")
-        eng_textfield!!.style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
+//        eng_textfield!!.style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
+//        eng_textfield!!.style.fontColor = Color.WHITE
 
         eng_textarea = TextArea("test\ntestt\ntesttt",game.uiskin, "fap")
 //        eng_textarea!!.setPrefRows(4f)
-        eng_textarea!!.style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
+//        eng_textarea!!.style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
 
         scroll = ScrollPane(eng_label, game.uiskin, "fap")
 
         list = UIList(game.uiskin, "fap")
-        list!!.style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
+//        list!!.style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
         listArray.add(
                 "testttt",
                 "testtttt",
@@ -147,7 +148,7 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
 
         selectbox = SelectBox(game.uiskin, "fap")
         selectbox!!.setItems(selectboxArray)
-        selectbox!!.style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
+//        selectbox!!.style.font = game.uiskin.get("chn-64", BitmapFont::class.java)
         selectbox!!.maxListCount = 3
 
         progress = ProgressBar(0f,5f,1f,false,game.uiskin, "fap")
@@ -164,11 +165,7 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
 
         splitpane = SplitPane(progress, slider, false, game.uiskin, "fap")
 
-        window = Window("test test test",game.uiskin)
-        window!!.style.background = game.uiskin.getDrawable("fap-window-background")
-        window!!.style.titleFont = game.uiskin.get("chn-64", BitmapFont::class.java)
-//        window!!.titleLabel.style.background = game.uiskin.getDrawable("empty-transparent")
-//        window!!.titleTable.background = game.uiskin.getDrawable("empty-transparent")
+        window = Window("test test test",game.uiskin, "fap")
 
 //        table!!.add(eng_label).expandX().expandY()//.fillX().fillY() //used in scroll
 

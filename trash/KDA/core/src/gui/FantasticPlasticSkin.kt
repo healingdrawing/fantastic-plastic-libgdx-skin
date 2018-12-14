@@ -50,7 +50,8 @@ class FantasticPlasticSkin : Skin() {
         addRegions(TextureAtlas(Gdx.files.internal("skin/fap.atlas"))) //fantastic plastic skin atlas
         add("chn-64", asm.get("bmfonts/chn-64.fnt"), BitmapFont::class.java)
         load(Gdx.files.internal("skin/uiskin.json")) //now chn-64 font can be used
-        defaultFont = get("chn-64" ,  BitmapFont::class.java)
+//        defaultFont = get("chn-64" ,  BitmapFont::class.java)
+        defaultFont = get("default-font" ,  BitmapFont::class.java)
 
         scroll.vScrollKnob = getDrawable("fap-vscrollknob")
         scroll.vScroll = getDrawable("fap-vscroll")
@@ -82,6 +83,7 @@ class FantasticPlasticSkin : Skin() {
         tfield.disabledBackground = getDrawable("fap-textfield-disabled")
         tfield.focusedBackground = getDrawable("fap-textfield-focused")
         tfield.font = defaultFont
+        tfield.fontColor = Color.WHITE
 
         tarea.cursor = getDrawable("fap-cursor")
         tarea.selection = getDrawable("fap-cursor")
@@ -89,6 +91,7 @@ class FantasticPlasticSkin : Skin() {
         tarea.disabledBackground = getDrawable("fap-textfield-disabled")
         tarea.focusedBackground = getDrawable("fap-textfield-focused")
         tarea.font = defaultFont
+        tarea.fontColor = Color.WHITE
 
         list.background = getDrawable("fap-list-background")
         list.selection = getDrawable("fap-list-selection")

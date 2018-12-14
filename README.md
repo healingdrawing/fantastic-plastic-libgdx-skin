@@ -8,7 +8,7 @@ Mobile oriented. Interactive elements sizes close to 80 px wide.
 
 ## Where is:  
 - `demo` - libgdx **Kotlin** project `KDA` for demonstration of fantastic plastic skin(`fap`)  
-- `font-with-effects.hiero` - Hiero libgdx tool settings for personal font.
+- `font-with-effects.hiero` - Hiero libgdx tool settings for personal font (screenshot above).
 - `fap.tpproj` - gdx-texturepacker.jar project linked to `png` folder  
 - `svg` - source image files created uses **inkscape**
 

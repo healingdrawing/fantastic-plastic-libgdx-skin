@@ -1,6 +1,7 @@
 package gui
 
 import com.badlogic.gdx.Gdx
+import com.badlogic.gdx.assets.AssetManager
 import com.badlogic.gdx.graphics.Color
 import com.badlogic.gdx.graphics.g2d.BitmapFont
 import com.badlogic.gdx.graphics.g2d.TextureAtlas
@@ -21,6 +22,9 @@ import com.badlogic.gdx.scenes.scene2d.ui.Tree.TreeStyle
 import com.badlogic.gdx.scenes.scene2d.ui.Window.WindowStyle
 
 class FantasticPlasticSkin : Skin() {
+    private val asm:AssetManager = AssetManager()
+    private var defaultFont:BitmapFont? = null
+
     private val scroll: ScrollPaneStyle = ScrollPaneStyle()
     private val split:SplitPaneStyle = SplitPaneStyle()
     private val tree:TreeStyle = TreeStyle()
@@ -39,10 +43,14 @@ class FantasticPlasticSkin : Skin() {
     private val dialog:WindowStyle = WindowStyle()
 
     fun prepare(){
+        asm.load("bmfonts/chn-64.fnt", BitmapFont::class.java)
+        asm.finishLoading()
+
         addRegions(TextureAtlas(Gdx.files.internal("skin/uiskin.atlas"))) //default ligdx skin from github
         addRegions(TextureAtlas(Gdx.files.internal("skin/fap.atlas"))) //fantastic plastic skin atlas
-        load(Gdx.files.internal("skin/uiskin.json")) //now default-font can be used
-        val defaultFont:BitmapFont = getFont("default-font")
+        add("chn-64", asm.get("bmfonts/chn-64.fnt"), BitmapFont::class.java)
+        defaultFont = get("chn-64" ,  BitmapFont::class.java)
+        load(Gdx.files.internal("skin/uiskin.json")) //now default font can be used
 
         scroll.vScrollKnob = getDrawable("fap-vscrollknob")
         scroll.vScroll = getDrawable("fap-vscroll")

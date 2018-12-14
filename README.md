@@ -1,6 +1,7 @@
 ![logo](svg/skin_logo.svg)
 # fantastic-plastic-libgdx-skin
-Skin for LibGDX gui  
+Skin for LibGDX gui.  
+Mobile oriented. Interactive elements sizes close to 80 px wide.  
 ## FOSS - Free Open Source Software licensing
 
 ![screenshot](demo/screenshot.png)
@@ -11,7 +12,7 @@ Skin for LibGDX gui
 - `fap.tpproj` - gdx-texturepacker.jar project linked to `png` folder  
 - `svg` - source image files created uses **inkscape**
 
-## How use it.  
+## Usage:  
 - 0 - clone this repository or download folders separetely  
 - 1 - copy `gui` folder from `demo/KDA/core/src` into your project `core/src` folder  
 - 2 - copy `bmfonts` , `raw` and `skin` folders from `demo/KDA/android/assets` folders to your project `assets` folder  

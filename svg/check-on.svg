@@ -17,7 +17,7 @@
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="check-on.svg"
-   inkscape:export-filename="/home/user/d/development/codehost/fantastic-plastic-libgdx-skin/png/check-on.png"
+   inkscape:export-filename="/home/user/d/development/codehost/fantastic-plastic-libgdx-skin/png/fap-check-on.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -139,9 +139,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.2960171"
-     inkscape:cx="26.756888"
-     inkscape:cy="46.082748"
+     inkscape:zoom="4.7535309"
+     inkscape:cx="29.098447"
+     inkscape:cy="43.025527"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -200,7 +200,8 @@
      inkscape:label="base"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1042.5197)">
+     transform="translate(0,-1042.5197)"
+     style="display:inline">
     <g
        id="g949">
       <path

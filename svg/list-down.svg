@@ -17,7 +17,7 @@
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="list-down.svg"
-   inkscape:export-filename="/home/user/d/development/codehost/fantastic-plastic-libgdx-skin/png/list-down.png"
+   inkscape:export-filename="/home/user/d/development/codehost/fantastic-plastic-libgdx-skin/png/fap-list-down.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -77,9 +77,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="26.274051"
-     inkscape:cx="5.7706843"
-     inkscape:cy="8.4221254"
+     inkscape:zoom="29.072164"
+     inkscape:cx="3.7121394"
+     inkscape:cy="5.958416"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -134,7 +134,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -142,7 +142,8 @@
      inkscape:label="base"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-38,-1076.5197)">
+     transform="translate(-38,-1076.5197)"
+     style="display:inline">
     <path
        style="opacity:1;fill:url(#linearGradient868);fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 2,2.000047 H 3e-7 v 8 H 2 v 2 h 8 v -2 h 2 v -8 h -2 v -2 H 2 Z m 0,0 h 8 v 8 H 2 Z"

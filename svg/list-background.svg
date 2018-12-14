@@ -16,7 +16,7 @@
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="list-background.svg"
-   inkscape:export-filename="/home/user/d/development/codehost/fantastic-plastic-libgdx-skin/png/list-background.png"
+   inkscape:export-filename="/home/user/d/development/codehost/fantastic-plastic-libgdx-skin/png/fap-list-background.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="26.119773"
-     inkscape:cx="6.7790123"
-     inkscape:cy="7.6799786"
+     inkscape:zoom="23.8855"
+     inkscape:cx="5.4787533"
+     inkscape:cy="7.8075689"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -85,7 +85,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -93,7 +93,8 @@
      inkscape:label="base"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-32,-1074.5198)">
+     transform="translate(-32,-1074.5198)"
+     style="display:inline">
     <path
        style="opacity:1;fill:#00b3fe;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 36,1088.5197 c 0,0 0,-2 0,-2 h -2 v 2 z"

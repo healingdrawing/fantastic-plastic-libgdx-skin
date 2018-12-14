@@ -17,7 +17,7 @@
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="touchpad-knob.svg"
-   inkscape:export-filename="/home/user/d/development/codehost/fantastic-plastic-libgdx-skin/png/touchpad-knob.png"
+   inkscape:export-filename="/home/user/d/development/codehost/fantastic-plastic-libgdx-skin/png/fap-touchpad-knob.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -228,9 +228,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="19.624172"
-     inkscape:cx="14.579655"
-     inkscape:cy="31.994218"
+     inkscape:zoom="11.142762"
+     inkscape:cx="18.093753"
+     inkscape:cy="22.541785"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -269,7 +269,8 @@
      inkscape:label="base"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-1082.5197)">
+     transform="translate(0,-1082.5197)"
+     style="display:inline">
     <g
        id="g3824"
        transform="translate(58,118)">

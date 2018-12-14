@@ -17,7 +17,7 @@
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="window-background.svg"
-   inkscape:export-filename="/home/user/d/development/codehost/fantastic-plastic-libgdx-skin/png/window-background.png"
+   inkscape:export-filename="/home/user/d/development/codehost/fantastic-plastic-libgdx-skin/png/fap-window-background.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -150,9 +150,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0345068"
-     inkscape:cx="42.988542"
-     inkscape:cy="163.86979"
+     inkscape:zoom="1.6759243"
+     inkscape:cx="58.389423"
+     inkscape:cy="140.03709"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -221,7 +221,8 @@
      inkscape:label="base"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-882.5197)">
+     transform="translate(0,-882.5197)"
+     style="display:inline">
     <g
        id="g5315">
       <path
@@ -250,7 +251,7 @@
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
          id="path5187"
-         d="m 120,884.5197 h 88 l 28,0 2,2 v 64 l -118,0 z"
+         d="m 120,884.5197 h 88 28 l 2,2 v 64 H 120 Z"
          style="opacity:1;fill:url(#linearGradient5195);fill-opacity:1;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
          sodipodi:nodetypes="ccccccccccccc"

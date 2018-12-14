@@ -17,7 +17,7 @@
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
    sodipodi:docname="vscroll.svg"
-   inkscape:export-filename="/home/user/Desktop/vscrollknob.png"
+   inkscape:export-filename="/home/user/d/development/codehost/fantastic-plastic-libgdx-skin/png/fap-vscroll.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
   <defs
@@ -43,57 +43,6 @@
          style="stop-color:#00b3fe;stop-opacity:1" />
     </linearGradient>
     <linearGradient
-       id="linearGradient932"
-       inkscape:collect="always">
-      <stop
-         id="stop928"
-         offset="0"
-         style="stop-color:#0cfe00;stop-opacity:1" />
-      <stop
-         id="stop930"
-         offset="1"
-         style="stop-color:#000000;stop-opacity:0.99354839" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient898">
-      <stop
-         style="stop-color:#fe0000;stop-opacity:1;"
-         offset="0"
-         id="stop894" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0.99354839"
-         offset="1"
-         id="stop896" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient971"
-       id="linearGradient961"
-       x1="50"
-       y1="1040.5198"
-       x2="50"
-       y2="1008.5198"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient932"
-       id="linearGradient991"
-       x1="44"
-       y1="1020.5198"
-       x2="50"
-       y2="1012.5198"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient898"
-       id="linearGradient999"
-       x1="44"
-       y1="1028.5198"
-       x2="50"
-       y2="1036.5198"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient971"
        id="linearGradient1041"
@@ -110,9 +59,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="10.070303"
-     inkscape:cx="-3.6988479"
-     inkscape:cy="19.132922"
+     inkscape:zoom="6.2897987"
+     inkscape:cx="-18.594154"
+     inkscape:cy="21.737855"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -167,7 +116,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -175,29 +124,8 @@
      inkscape:label="base"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-46,-1008.5198)">
-    <g
-       id="g1012"
-       transform="translate(-20)">
-      <path
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         id="path953"
-         d="m 54,1040.5198 -2,-16 2,-16 h -8 l -8,8 2,8 -2,8 8,8 z"
-         style="opacity:1;fill:url(#linearGradient961);fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path981"
-         d="m 48,1036.5198 h 2 l -2,-10 h -4 l -2,4 z"
-         style="opacity:1;fill:url(#linearGradient999);fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         sodipodi:nodetypes="cccccc"
-         inkscape:connector-curvature="0"
-         id="path983"
-         d="m 48,1022.5198 h -4 l -2,-4 6,-6 h 2 z"
-         style="opacity:1;fill:url(#linearGradient991);fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
+     transform="translate(-46,-1008.5198)"
+     style="display:inline">
     <rect
        style="opacity:1;fill:url(#linearGradient1041);fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect1033"

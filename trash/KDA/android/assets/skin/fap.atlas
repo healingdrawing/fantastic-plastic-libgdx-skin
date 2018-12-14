@@ -1,0 +1,276 @@
+
+fap.png
+size: 1024,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+fap-button-down
+  rotate: false
+  xy: 568, 92
+  size: 80, 80
+  split: 38, 38, 38, 38
+  pad: 38, 38, 4, 4
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap-button-up
+  rotate: false
+  xy: 486, 174
+  size: 80, 80
+  split: 38, 38, 38, 38
+  pad: 38, 38, 4, 4
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap-check-off
+  rotate: false
+  xy: 650, 92
+  size: 80, 80
+  split: 38, 38, 38, 38
+  pad: 38, 38, 19, 19
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap-check-on
+  rotate: false
+  xy: 732, 174
+  size: 80, 80
+  split: 38, 38, 38, 38
+  pad: 38, 38, 20, 20
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap-cursor
+  rotate: false
+  xy: 528, 2
+  size: 8, 12
+  split: 2, 2, 2, 2
+  pad: 2, 2, 2, 2
+  orig: 8, 12
+  offset: 0, 0
+  index: -1
+fap-hscroll
+  rotate: false
+  xy: 2, 4
+  size: 32, 8
+  split: 2, 2, 2, 2
+  pad: 2, 2, 2, 2
+  orig: 32, 8
+  offset: 0, 0
+  index: -1
+fap-hscrollknob
+  rotate: false
+  xy: 486, 16
+  size: 32, 16
+  split: 15, 15, 12, 2
+  pad: 15, 15, 12, 2
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+fap-label-background
+  rotate: false
+  xy: 500, 2
+  size: 12, 12
+  split: 4, 4, 4, 4
+  pad: 4, 4, 4, 4
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+fap-list-background
+  rotate: false
+  xy: 832, 238
+  size: 16, 16
+  split: 6, 6, 6, 6
+  pad: 4, 4, 4, 4
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+fap-list-down
+  rotate: false
+  xy: 514, 2
+  size: 12, 12
+  split: 2, 2, 2, 2
+  pad: 4, 4, 4, 4
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+fap-list-selection
+  rotate: false
+  xy: 486, 2
+  size: 12, 12
+  split: 2, 2, 2, 2
+  pad: 4, 4, 4, 4
+  orig: 12, 12
+  offset: 0, 0
+  index: -1
+fap-minus
+  rotate: false
+  xy: 732, 106
+  size: 24, 24
+  split: 6, 6, 6, 6
+  pad: 6, 6, 6, 6
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+fap-plus
+  rotate: false
+  xy: 544, 66
+  size: 24, 24
+  split: 6, 6, 6, 6
+  pad: 6, 6, 6, 6
+  orig: 24, 24
+  offset: 0, 0
+  index: -1
+fap-progressbar-background
+  rotate: false
+  xy: 570, 74
+  size: 16, 16
+  split: 6, 6, 6, 6
+  pad: 2, 2, 2, 2
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+fap-progressbar-knob
+  rotate: false
+  xy: 850, 238
+  size: 16, 16
+  split: 6, 6, 6, 6
+  pad: 6, 6, 6, 6
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+fap-progressbar-knobafter
+  rotate: false
+  xy: 832, 220
+  size: 16, 16
+  split: 7, 7, 7, 7
+  pad: 7, 7, 7, 7
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+fap-progressbar-knobbefore
+  rotate: false
+  xy: 784, 156
+  size: 16, 16
+  split: 6, 6, 6, 6
+  pad: 6, 6, 6, 6
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+fap-scroll-background
+  rotate: false
+  xy: 814, 186
+  size: 16, 16
+  split: 4, 4, 4, 4
+  pad: 0, 0, 0, 0
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+fap-selectbox-background
+  rotate: false
+  xy: 568, 174
+  size: 80, 80
+  split: 38, 38, 38, 38
+  pad: 38, 38, 4, 4
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap-slider-background
+  rotate: false
+  xy: 486, 92
+  size: 80, 80
+  split: 38, 38, 38, 38
+  pad: 0, 0, 0, 0
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap-slider-knob
+  rotate: false
+  xy: 650, 174
+  size: 80, 80
+  split: 38, 38, 38, 38
+  pad: 38, 38, 38, 38
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap-splitpane
+  rotate: false
+  xy: 486, 34
+  size: 56, 56
+  split: 26, 26, 26, 26
+  pad: 26, 26, 26, 26
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+fap-textfield-background
+  rotate: false
+  xy: 544, 48
+  size: 16, 16
+  split: 6, 6, 6, 6
+  pad: 6, 6, 6, 6
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+fap-textfield-disabled
+  rotate: false
+  xy: 520, 16
+  size: 16, 16
+  split: 6, 6, 6, 6
+  pad: 6, 6, 6, 6
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+fap-textfield-focused
+  rotate: false
+  xy: 814, 204
+  size: 16, 16
+  split: 6, 6, 6, 6
+  pad: 6, 6, 6, 6
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+fap-touchpad-background
+  rotate: false
+  xy: 244, 14
+  size: 240, 240
+  split: 0, 0, 0, 0
+  pad: 0, 0, 0, 0
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+fap-touchpad-knob
+  rotate: false
+  xy: 732, 132
+  size: 40, 40
+  split: 0, 0, 0, 0
+  pad: 0, 0, 0, 0
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+fap-vscroll
+  rotate: false
+  xy: 774, 140
+  size: 8, 32
+  split: 2, 2, 2, 2
+  pad: 2, 2, 2, 2
+  orig: 8, 32
+  offset: 0, 0
+  index: -1
+fap-vscrollknob
+  rotate: false
+  xy: 814, 222
+  size: 16, 32
+  split: 12, 2, 15, 15
+  pad: 12, 2, 15, 15
+  orig: 16, 32
+  offset: 0, 0
+  index: -1
+fap-window-background
+  rotate: false
+  xy: 2, 14
+  size: 240, 240
+  split: 38, 38, 68, 38
+  pad: 6, 6, 68, 6
+  orig: 240, 240
+  offset: 0, 0
+  index: -1

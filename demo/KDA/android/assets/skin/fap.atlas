@@ -141,7 +141,7 @@ fap-progressbar-knob
   index: -1
 fap-progressbar-knobafter
   rotate: false
-  xy: 832, 220
+  xy: 784, 156
   size: 16, 16
   split: 7, 7, 7, 7
   pad: 7, 7, 7, 7
@@ -150,7 +150,7 @@ fap-progressbar-knobafter
   index: -1
 fap-progressbar-knobbefore
   rotate: false
-  xy: 784, 156
+  xy: 520, 16
   size: 16, 16
   split: 6, 6, 6, 6
   pad: 6, 6, 6, 6
@@ -159,7 +159,7 @@ fap-progressbar-knobbefore
   index: -1
 fap-scroll-background
   rotate: false
-  xy: 814, 186
+  xy: 832, 220
   size: 16, 16
   split: 4, 4, 4, 4
   pad: 0, 0, 0, 0
@@ -213,7 +213,7 @@ fap-textfield-background
   index: -1
 fap-textfield-disabled
   rotate: false
-  xy: 520, 16
+  xy: 814, 186
   size: 16, 16
   split: 6, 6, 6, 6
   pad: 6, 6, 6, 6

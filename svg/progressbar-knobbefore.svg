@@ -42,7 +42,7 @@
        inkscape:collect="always"
        id="linearGradient874">
       <stop
-         style="stop-color:#fdfdfd;stop-opacity:1"
+         style="stop-color:#ffffff;stop-opacity:1"
          offset="0"
          id="stop868" />
       <stop
@@ -54,113 +54,6 @@
          offset="1"
          id="stop872" />
     </linearGradient>
-    <linearGradient
-       id="linearGradient902"
-       inkscape:collect="always">
-      <stop
-         id="stop896"
-         offset="0"
-         style="stop-color:#000000;stop-opacity:1" />
-      <stop
-         style="stop-color:#fe0000;stop-opacity:1"
-         offset="0.49998966"
-         id="stop898" />
-      <stop
-         id="stop900"
-         offset="1"
-         style="stop-color:#000000;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient894"
-       inkscape:collect="always">
-      <stop
-         id="stop888"
-         offset="0"
-         style="stop-color:#000000;stop-opacity:1" />
-      <stop
-         style="stop-color:#fe0000;stop-opacity:1"
-         offset="0.5"
-         id="stop890" />
-      <stop
-         id="stop892"
-         offset="1"
-         style="stop-color:#000000;stop-opacity:1" />
-    </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient902"
-       id="radialGradient920-3"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.9999998,9.5149441e-8,-9.5146437e-8,1.9999686,-45.999888,-1080.4857)"
-       cx="46"
-       cy="1080.5197"
-       fx="46"
-       fy="1080.5197"
-       r="2" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient902"
-       id="radialGradient937"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.9999998,9.5149441e-8,-9.5146437e-8,1.9999686,-45.999888,-1080.4857)"
-       cx="46"
-       cy="1080.5197"
-       fx="46"
-       fy="1080.5197"
-       r="2" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient902"
-       id="radialGradient947"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.9999998,9.5149441e-8,-9.5146437e-8,1.9999686,-45.999888,-1080.4857)"
-       cx="46"
-       cy="1080.5197"
-       fx="46"
-       fy="1080.5197"
-       r="2" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient902"
-       id="radialGradient957"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.9999998,9.5149441e-8,-9.5146437e-8,1.9999686,-45.999888,-1080.4857)"
-       cx="46"
-       cy="1080.5197"
-       fx="46"
-       fy="1080.5197"
-       r="2" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient894"
-       id="linearGradient922-3"
-       gradientUnits="userSpaceOnUse"
-       x1="46"
-       y1="1082.5197"
-       x2="50"
-       y2="1082.5197" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient902"
-       id="radialGradient1012"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.9999998,9.5149441e-8,-9.5146437e-8,1.9999686,-45.999888,-1080.4857)"
-       cx="46"
-       cy="1080.5197"
-       fx="46"
-       fy="1080.5197"
-       r="2" />
-    <radialGradient
-       r="2"
-       fy="1080.5197"
-       fx="46"
-       cy="1080.5197"
-       cx="46"
-       gradientTransform="matrix(1.9999998,9.5149441e-8,-9.5146437e-8,1.9999686,-45.999888,-1080.4857)"
-       gradientUnits="userSpaceOnUse"
-       id="radialGradient1030"
-       xlink:href="#linearGradient902"
-       inkscape:collect="always" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient874"
@@ -189,9 +82,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="9.3730384"
-     inkscape:cx="-7.0857796"
-     inkscape:cy="9.0695392"
+     inkscape:zoom="16.702987"
+     inkscape:cx="9.8605798"
+     inkscape:cy="10.36565"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"

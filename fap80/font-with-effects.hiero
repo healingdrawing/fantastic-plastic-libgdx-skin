@@ -1,0 +1,44 @@
+font.name=Arial
+font.size=64
+font.bold=false
+font.italic=false
+font.gamma=1.8
+font.mono=false
+
+font2.file=/home/user/Videos/libgdx_prepare_fonts/basefonts/KOR_2593-UnDotum.ttf
+font2.use=false
+
+pad.top=4
+pad.right=6
+pad.bottom=4
+pad.left=4
+pad.advance.x=-2
+pad.advance.y=-2
+
+glyph.native.rendering=false
+glyph.page.width=512
+glyph.page.height=512
+glyph.text=heiro settings file 64
+
+render_type=0
+
+effect.class=com.badlogic.gdx.tools.hiero.unicodefont.effects.ShadowEffect
+effect.Color=ffd400
+effect.Opacity=0.9
+effect.X distance=2.0
+effect.Y distance=0.0
+effect.Blur kernel size=0
+effect.Blur passes=0
+
+effect.class=com.badlogic.gdx.tools.hiero.unicodefont.effects.OutlineEffect
+effect.Color=008062
+effect.Width=4.0
+effect.Join=2
+
+effect.class=com.badlogic.gdx.tools.hiero.unicodefont.effects.GradientEffect
+effect.Top color=ffffff
+effect.Bottom color=00fea1
+effect.Offset=4
+effect.Scale=1.0
+effect.Cyclic=false
+

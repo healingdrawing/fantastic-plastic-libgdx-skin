@@ -47,18 +47,6 @@
          style="stop-color:#00fea1;stop-opacity:0" />
     </linearGradient>
     <linearGradient
-       id="linearGradient1249"
-       inkscape:collect="always">
-      <stop
-         id="stop1245"
-         offset="0"
-         style="stop-color:#00fea1;stop-opacity:1" />
-      <stop
-         id="stop1247"
-         offset="1"
-         style="stop-color:#00fea1;stop-opacity:0" />
-    </linearGradient>
-    <linearGradient
        inkscape:collect="always"
        id="linearGradient1188">
       <stop
@@ -133,16 +121,6 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient1249"
-       id="linearGradient1278"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1.5,0,0,0.50000006,-16,523.25983)"
-       x1="58"
-       y1="1046.5198"
-       x2="58"
-       y2="1040.5198" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient1261"
        id="linearGradient1282"
        gradientUnits="userSpaceOnUse"
@@ -159,9 +137,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="6.7993021"
-     inkscape:cx="6.4807613"
-     inkscape:cy="25.026542"
+     inkscape:zoom="9.8685315"
+     inkscape:cx="13.80155"
+     inkscape:cy="23.252613"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -252,11 +230,6 @@
       <g
          transform="translate(-10,11.999999)"
          id="g1243">
-        <path
-           style="display:inline;opacity:1;fill:url(#linearGradient1278);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.86602545;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-           d="m 62,1046.5198 v -3 h 6 v 3 z"
-           id="path1162-1"
-           inkscape:connector-curvature="0" />
         <path
            style="display:inline;opacity:1;fill:url(#linearGradient1182-5);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.70710683;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
            d="m 62,1042.5198 h 4 v -2 h -4 z"

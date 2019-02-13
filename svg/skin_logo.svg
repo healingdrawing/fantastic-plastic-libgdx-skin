@@ -26,35 +26,23 @@
        inkscape:collect="always"
        id="linearGradient942">
       <stop
-         style="stop-color:#0a0700;stop-opacity:1"
+         style="stop-color:#000000;stop-opacity:1"
          offset="0"
          id="stop938" />
       <stop
-         style="stop-color:#00b3fe;stop-opacity:0.90322578"
+         style="stop-color:#00b4fe;stop-opacity:1"
          offset="1"
          id="stop940" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient932">
-      <stop
-         style="stop-color:#0bfe00;stop-opacity:1"
-         offset="0"
-         id="stop928" />
-      <stop
-         style="stop-color:#feba00;stop-opacity:1"
-         offset="1"
-         id="stop930" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
        id="linearGradient3769-3-5">
       <stop
-         style="stop-color:#feb900;stop-opacity:1"
+         style="stop-color:#ffffff;stop-opacity:1"
          offset="0"
          id="stop923" />
       <stop
-         style="stop-color:#000000;stop-opacity:0.98823529"
+         style="stop-color:#00fea1;stop-opacity:1"
          offset="1"
          id="stop925" />
     </linearGradient>
@@ -66,7 +54,7 @@
          offset="0"
          id="stop908" />
       <stop
-         style="stop-color:#000000;stop-opacity:0.98823529"
+         style="stop-color:#000000;stop-opacity:1"
          offset="1"
          id="stop910" />
     </linearGradient>
@@ -90,15 +78,6 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient932"
-       id="linearGradient934"
-       x1="44"
-       y1="1058.5197"
-       x2="44"
-       y2="1106.5197"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient942"
        id="linearGradient944"
        x1="50"
@@ -114,9 +93,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.9690269"
-     inkscape:cx="27.168653"
-     inkscape:cy="38.716599"
+     inkscape:zoom="3.7708161"
+     inkscape:cx="-0.10729213"
+     inkscape:cy="42.932881"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -128,7 +107,8 @@
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:snap-smooth-nodes="true">
+     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-global="true">
     <inkscape:grid
        type="xygrid"
        id="grid815"
@@ -167,7 +147,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -190,7 +170,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccczcccczcc" />
     <path
-       style="opacity:1;fill:url(#linearGradient921);fill-opacity:1;stroke:url(#linearGradient934);stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:url(#linearGradient921);fill-opacity:1;stroke:#008062;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 24,1106.5197 h -4 v -48 h 20 c 0,0 2,0 2,2 0,2 -2,2 -2,2 H 24 v 32 h 12 c 0,0 2,0 2,2 0,2 -2,2 -2,2 H 24 Z"
        id="path913"
        inkscape:connector-curvature="0"

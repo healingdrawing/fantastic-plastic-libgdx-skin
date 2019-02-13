@@ -47,18 +47,6 @@
          style="stop-color:#00fea1;stop-opacity:1" />
     </linearGradient>
     <linearGradient
-       id="linearGradient1062"
-       inkscape:collect="always">
-      <stop
-         id="stop1058"
-         offset="0"
-         style="stop-color:#00fea1;stop-opacity:0" />
-      <stop
-         id="stop1060"
-         offset="1"
-         style="stop-color:#00fea1;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient
        inkscape:collect="always"
        id="linearGradient863">
       <stop
@@ -174,16 +162,6 @@
        y1="1040.5198"
        x2="60"
        y2="1036.5198" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient1062"
-       id="linearGradient1036"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(12,8.000047)"
-       x1="60"
-       y1="1034.5198"
-       x2="60"
-       y2="1028.5198" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -192,9 +170,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8.9967317"
-     inkscape:cx="12.384591"
-     inkscape:cy="25.315859"
+     inkscape:zoom="8.1079215"
+     inkscape:cx="12.372437"
+     inkscape:cy="24.950793"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -313,12 +291,6 @@
            style="opacity:1;fill:url(#linearGradient1034);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
            d="m 70,1034.5197 h -4 v -4 h 4 z"
            id="path839-2-0"
-           inkscape:connector-curvature="0" />
-        <path
-           sodipodi:nodetypes="ccccc"
-           style="opacity:1;fill:url(#linearGradient1036);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
-           d="m 68,1042.5197 -2,0 v -6 l 2,0 z"
-           id="path841-7-6"
            inkscape:connector-curvature="0" />
       </g>
       <use

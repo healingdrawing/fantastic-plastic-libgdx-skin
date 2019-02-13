@@ -30,13 +30,13 @@
          offset="0"
          style="stop-color:#00fea1;stop-opacity:1" />
       <stop
-         style="stop-color:#050505;stop-opacity:0.98431373"
+         style="stop-color:#000000;stop-opacity:1"
          offset="0.43749923"
          id="stop965" />
       <stop
          id="stop967"
          offset="0.56249923"
-         style="stop-color:#000000;stop-opacity:0.99215686" />
+         style="stop-color:#000000;stop-opacity:1" />
       <stop
          id="stop969"
          offset="1"
@@ -101,9 +101,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="19.399202"
-     inkscape:cx="11.136187"
-     inkscape:cy="7.7502565"
+     inkscape:zoom="30.971679"
+     inkscape:cx="24.09173"
+     inkscape:cy="8.1523247"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"

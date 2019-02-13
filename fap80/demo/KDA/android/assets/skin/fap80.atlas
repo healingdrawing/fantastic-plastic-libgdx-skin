@@ -1,0 +1,285 @@
+
+fap80.png
+size: 1024,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+fap80-button-down
+  rotate: false
+  xy: 568, 90
+  size: 80, 80
+  split: 16, 16, 16, 16
+  pad: 16, 16, 4, 4
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap80-button-up
+  rotate: false
+  xy: 650, 172
+  size: 80, 80
+  split: 16, 16, 16, 16
+  pad: 16, 16, 4, 4
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap80-check-disabled
+  rotate: false
+  xy: 650, 90
+  size: 80, 80
+  split: 32, 32, 32, 32
+  pad: 32, 32, 32, 32
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap80-check-off
+  rotate: false
+  xy: 732, 172
+  size: 80, 80
+  split: 32, 32, 32, 32
+  pad: 32, 32, 32, 32
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap80-check-on
+  rotate: false
+  xy: 486, 172
+  size: 80, 80
+  split: 32, 32, 32, 32
+  pad: 32, 32, 32, 32
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap80-cursor
+  rotate: false
+  xy: 528, 14
+  size: 8, 16
+  split: 2, 2, 2, 2
+  pad: 2, 2, 2, 2
+  orig: 8, 16
+  offset: 0, 0
+  index: -1
+fap80-hscroll
+  rotate: false
+  xy: 2, 2
+  size: 32, 8
+  split: 2, 2, 2, 2
+  pad: 2, 2, 2, 2
+  orig: 32, 8
+  offset: 0, 0
+  index: -1
+fap80-hscrollknob
+  rotate: false
+  xy: 856, 152
+  size: 32, 16
+  split: 15, 15, 12, 2
+  pad: 15, 15, 12, 2
+  orig: 32, 16
+  offset: 0, 0
+  index: -1
+fap80-label-background
+  rotate: false
+  xy: 814, 128
+  size: 40, 40
+  split: 14, 14, 14, 14
+  pad: 14, 14, 4, 4
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+fap80-list-background
+  rotate: false
+  xy: 628, 48
+  size: 40, 40
+  split: 14, 14, 14, 14
+  pad: 16, 16, 4, 4
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+fap80-list-down
+  rotate: false
+  xy: 486, 14
+  size: 40, 16
+  split: 8, 8, 0, 16
+  pad: 8, 8, 0, 0
+  orig: 40, 16
+  offset: 0, 0
+  index: -1
+fap80-list-selection
+  rotate: false
+  xy: 814, 110
+  size: 40, 16
+  split: 8, 8, 0, 16
+  pad: 8, 8, 0, 0
+  orig: 40, 16
+  offset: 0, 0
+  index: -1
+fap80-minus
+  rotate: false
+  xy: 898, 212
+  size: 40, 40
+  split: 8, 8, 16, 16
+  pad: 8, 8, 16, 16
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+fap80-plus
+  rotate: false
+  xy: 856, 212
+  size: 40, 40
+  split: 16, 16, 16, 16
+  pad: 16, 16, 16, 16
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+fap80-progressbar-background
+  rotate: false
+  xy: 856, 134
+  size: 16, 16
+  split: 6, 6, 6, 6
+  pad: 2, 2, 2, 2
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+fap80-progressbar-knob
+  rotate: false
+  xy: 814, 92
+  size: 16, 16
+  split: 6, 6, 6, 6
+  pad: 6, 6, 6, 6
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+fap80-progressbar-knobafter
+  rotate: false
+  xy: 670, 72
+  size: 16, 16
+  split: 7, 7, 7, 7
+  pad: 7, 7, 7, 7
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+fap80-progressbar-knobbefore
+  rotate: false
+  xy: 916, 194
+  size: 16, 16
+  split: 6, 6, 6, 6
+  pad: 6, 6, 6, 6
+  orig: 16, 16
+  offset: 0, 0
+  index: -1
+fap80-scroll-background
+  rotate: false
+  xy: 856, 170
+  size: 40, 40
+  split: 16, 16, 16, 16
+  pad: 0, 0, 0, 0
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+fap80-selectbox-background
+  rotate: false
+  xy: 732, 90
+  size: 80, 80
+  split: 38, 38, 38, 38
+  pad: 38, 38, 4, 4
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap80-slider-background
+  rotate: false
+  xy: 486, 90
+  size: 80, 80
+  split: 38, 38, 38, 38
+  pad: 0, 0, 0, 0
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap80-slider-knob
+  rotate: false
+  xy: 568, 172
+  size: 80, 80
+  split: 38, 38, 38, 38
+  pad: 38, 38, 38, 38
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
+fap80-splitpane
+  rotate: false
+  xy: 486, 32
+  size: 56, 56
+  split: 26, 26, 26, 26
+  pad: 26, 26, 26, 26
+  orig: 56, 56
+  offset: 0, 0
+  index: -1
+fap80-textfield-background
+  rotate: false
+  xy: 544, 48
+  size: 40, 40
+  split: 14, 14, 14, 14
+  pad: 16, 16, 4, 4
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+fap80-textfield-disabled
+  rotate: false
+  xy: 586, 48
+  size: 40, 40
+  split: 14, 14, 14, 14
+  pad: 16, 16, 4, 4
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+fap80-textfield-focused
+  rotate: false
+  xy: 814, 170
+  size: 40, 40
+  split: 14, 14, 14, 14
+  pad: 16, 16, 4, 4
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+fap80-touchpad-background
+  rotate: false
+  xy: 2, 12
+  size: 240, 240
+  split: 0, 0, 0, 0
+  pad: 0, 0, 0, 0
+  orig: 240, 240
+  offset: 0, 0
+  index: -1
+fap80-touchpad-knob
+  rotate: false
+  xy: 814, 212
+  size: 40, 40
+  split: 0, 0, 0, 0
+  pad: 0, 0, 0, 0
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+fap80-vscroll
+  rotate: false
+  xy: 940, 220
+  size: 8, 32
+  split: 2, 2, 2, 2
+  pad: 2, 2, 2, 2
+  orig: 8, 32
+  offset: 0, 0
+  index: -1
+fap80-vscrollknob
+  rotate: false
+  xy: 898, 178
+  size: 16, 32
+  split: 12, 2, 15, 15
+  pad: 12, 2, 15, 15
+  orig: 16, 32
+  offset: 0, 0
+  index: -1
+fap80-window-background
+  rotate: false
+  xy: 244, 12
+  size: 240, 240
+  split: 38, 38, 68, 38
+  pad: 6, 6, 68, 6
+  orig: 240, 240
+  offset: 0, 0
+  index: -1

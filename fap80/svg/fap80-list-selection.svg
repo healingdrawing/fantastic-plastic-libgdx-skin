@@ -60,6 +60,27 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient949">
+      <stop
+         style="stop-color:#00b3fe;stop-opacity:1"
+         offset="0"
+         id="stop945" />
+      <stop
+         style="stop-color:#00b3fe;stop-opacity:0"
+         offset="1"
+         id="stop947" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient949"
+       id="linearGradient951"
+       x1="74"
+       y1="1090.5198"
+       x2="74"
+       y2="1082.5198"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
        xlink:href="#linearGradient957"
        id="linearGradient959"
        x1="59"
@@ -93,9 +114,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="9.0498707"
-     inkscape:cx="22.557312"
-     inkscape:cy="4.8502001"
+     inkscape:zoom="25.820337"
+     inkscape:cx="16.225928"
+     inkscape:cy="15.378401"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -189,5 +210,11 @@
        transform="matrix(-1,0,0,1,104,0)"
        width="100%"
        height="100%" />
+    <path
+       style="opacity:1;fill:url(#linearGradient951);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 64,1090.5198 v -16 H 40 v 16 z"
+       id="path943"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
   </g>
 </svg>

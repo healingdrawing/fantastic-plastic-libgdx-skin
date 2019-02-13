@@ -157,7 +157,7 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
 //        table!!.add(eng_label).expandX().expandY()//.fillX().fillY() //used in scroll
 
         table!!.add(eng_button).expandX().expandY()//.fillX().fillY()
-        table!!.add(selectbox).expandX().height(80f)
+        table!!.add(selectbox).expandX()
         table!!.add(eng_textfield).expandX().expandY().fillX()
         table!!.row()
         table!!.add(eng_cbox).expandX().expandY()//.fillX().fillY()

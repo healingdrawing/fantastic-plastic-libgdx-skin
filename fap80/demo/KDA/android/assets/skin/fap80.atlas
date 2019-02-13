@@ -6,7 +6,7 @@ filter: Nearest,Nearest
 repeat: none
 fap80-button-down
   rotate: false
-  xy: 568, 90
+  xy: 568, 172
   size: 80, 80
   split: 16, 16, 16, 16
   pad: 16, 16, 4, 4
@@ -15,7 +15,7 @@ fap80-button-down
   index: -1
 fap80-button-up
   rotate: false
-  xy: 650, 172
+  xy: 568, 90
   size: 80, 80
   split: 16, 16, 16, 16
   pad: 16, 16, 4, 4
@@ -24,7 +24,7 @@ fap80-button-up
   index: -1
 fap80-check-disabled
   rotate: false
-  xy: 650, 90
+  xy: 650, 172
   size: 80, 80
   split: 32, 32, 32, 32
   pad: 32, 32, 32, 32
@@ -123,7 +123,7 @@ fap80-minus
   index: -1
 fap80-plus
   rotate: false
-  xy: 856, 212
+  xy: 814, 170
   size: 40, 40
   split: 16, 16, 16, 16
   pad: 16, 16, 16, 16
@@ -195,7 +195,7 @@ fap80-slider-background
   index: -1
 fap80-slider-knob
   rotate: false
-  xy: 568, 172
+  xy: 650, 90
   size: 80, 80
   split: 38, 38, 38, 38
   pad: 38, 38, 38, 38
@@ -222,7 +222,7 @@ fap80-textfield-background
   index: -1
 fap80-textfield-disabled
   rotate: false
-  xy: 586, 48
+  xy: 856, 212
   size: 40, 40
   split: 14, 14, 14, 14
   pad: 16, 16, 4, 4
@@ -231,7 +231,7 @@ fap80-textfield-disabled
   index: -1
 fap80-textfield-focused
   rotate: false
-  xy: 814, 170
+  xy: 586, 48
   size: 40, 40
   split: 14, 14, 14, 14
   pad: 16, 16, 4, 4

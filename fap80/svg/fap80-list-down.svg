@@ -74,10 +74,10 @@
        inkscape:collect="always"
        xlink:href="#linearGradient949"
        id="linearGradient951"
-       x1="74"
+       x1="76"
        y1="1090.5198"
-       x2="74"
-       y2="1082.5198"
+       x2="76"
+       y2="1074.5198"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
@@ -114,9 +114,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="12.150747"
-     inkscape:cx="25.792031"
-     inkscape:cy="15.378401"
+     inkscape:zoom="14.574907"
+     inkscape:cx="20.262398"
+     inkscape:cy="10.059821"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -171,7 +171,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>

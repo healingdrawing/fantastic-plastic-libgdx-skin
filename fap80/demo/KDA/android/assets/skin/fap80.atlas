@@ -78,10 +78,10 @@ fap80-hscrollknob
   index: -1
 fap80-label-background
   rotate: false
-  xy: 814, 128
+  xy: 898, 212
   size: 40, 40
-  split: 14, 14, 14, 14
-  pad: 14, 14, 4, 4
+  split: 16, 16, 16, 16
+  pad: 16, 16, 16, 16
   orig: 40, 40
   offset: 0, 0
   index: -1
@@ -89,8 +89,8 @@ fap80-list-background
   rotate: false
   xy: 628, 48
   size: 40, 40
-  split: 14, 14, 14, 14
-  pad: 16, 16, 4, 4
+  split: 16, 16, 16, 16
+  pad: 0, 0, 16, 16
   orig: 40, 40
   offset: 0, 0
   index: -1
@@ -114,7 +114,7 @@ fap80-list-selection
   index: -1
 fap80-minus
   rotate: false
-  xy: 898, 212
+  xy: 856, 170
   size: 40, 40
   split: 8, 8, 16, 16
   pad: 8, 8, 16, 16
@@ -123,7 +123,7 @@ fap80-minus
   index: -1
 fap80-plus
   rotate: false
-  xy: 814, 170
+  xy: 856, 212
   size: 40, 40
   split: 16, 16, 16, 16
   pad: 16, 16, 16, 16
@@ -168,7 +168,7 @@ fap80-progressbar-knobbefore
   index: -1
 fap80-scroll-background
   rotate: false
-  xy: 856, 170
+  xy: 814, 128
   size: 40, 40
   split: 16, 16, 16, 16
   pad: 0, 0, 0, 0
@@ -222,7 +222,7 @@ fap80-textfield-background
   index: -1
 fap80-textfield-disabled
   rotate: false
-  xy: 856, 212
+  xy: 586, 48
   size: 40, 40
   split: 14, 14, 14, 14
   pad: 16, 16, 4, 4
@@ -231,7 +231,7 @@ fap80-textfield-disabled
   index: -1
 fap80-textfield-focused
   rotate: false
-  xy: 586, 48
+  xy: 814, 170
   size: 40, 40
   split: 14, 14, 14, 14
   pad: 16, 16, 4, 4

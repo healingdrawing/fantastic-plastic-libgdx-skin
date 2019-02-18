@@ -5,6 +5,7 @@ Mobile oriented. Interactive elements sizes close to 80 px wide.
 ## FOSS - Free Open Source Software licensing  
 
 ### fap80  
+![screenshot fap80](fap80/demo/screenshot-fap80.gif)  
 ![screenshot fap80](fap80/demo/screenshot-fap80.png)  
 
 ### fap  

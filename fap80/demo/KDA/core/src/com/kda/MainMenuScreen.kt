@@ -175,7 +175,7 @@ class MainMenuScreen(private var game: KDA) : ScreenAdapter() {
 //        table!!.add(eng_textarea).expandX().expandY()//.fillX().fillY() //BUGGED
 
         table!!.row()
-        table!!.add(splitpane).expand().fill()
+        table!!.add(splitpane).expand().fill().colspan(3)
 
         window!!.setFillParent(true)
         window!!.add(table).expand().fill()
